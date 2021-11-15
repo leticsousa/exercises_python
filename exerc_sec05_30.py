@@ -1,7 +1,6 @@
-num1 = int(input("Informe um número: "))
-num2 = int(input("Informe um número: "))
-num3 = int(input("Informe um número: "))
+numeros = [int(input("Digite o primeiro número: ")),
+           int(input("Digite o segundo número: ")),
+           int(input("Digite o terceiro número: "))]
 
-numeros = [num1, num2, num3]
-
-print(sorted(numeros))
+numeros.sort()
+print(numeros)
